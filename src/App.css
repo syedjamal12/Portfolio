@@ -127,3 +127,20 @@
   margin-right: 10px;
   color: #61dafb;
 }
+
+
+
+.avatar-wrapper {
+  width: 100%;
+  max-width: 270px; /* Adjust as per your design */
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow */
+}
+
+.avatar-wrapper img {
+  width: 100%;
+  height: auto;
+}
+

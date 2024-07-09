@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import my from "../../Assets/Projects/WhatsApp Image 2024-07-08 at 12.32.07_b6443213.jpg";
 import Tilt from "react-parallax-tilt";
 import ContactMe from "../ContactMe";
 import {
@@ -9,6 +10,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+ // Assuming you have a CSS file for Home2 styling
 
 function Home2() {
   return (
@@ -31,7 +33,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products. </b> 
+                <b className="purple">Web Technologies and Products. </b>
               </i>
               <br />
               <br />
@@ -51,11 +53,13 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <div className="avatar-wrapper">
+                <img src={my} className="img-fluid" alt="avatar" />
+              </div>
             </Tilt>
           </Col>
         </Row>
-        <ContactMe/>
+        <ContactMe />
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
